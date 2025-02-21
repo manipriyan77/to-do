@@ -1,0 +1,14 @@
+.login_container {
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 5px 10px;
+  }
+}

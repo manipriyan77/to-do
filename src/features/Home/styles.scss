@@ -1,0 +1,14 @@
+.home_container {
+  width: 100%;
+  .sidebar_container {
+  }
+  .tasks_container {
+    width: 75%;
+    .single_task_container {
+      background-color: white;
+      border-radius: 3px;
+      margin-bottom: 5px;
+      padding: 15px 30px;
+    }
+  }
+}

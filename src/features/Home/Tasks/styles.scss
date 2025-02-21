@@ -1,0 +1,30 @@
+.tasks_list_container {
+  padding: 20px;
+  background-color: burlywood;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .tasks_header {
+    h2 {
+      font-weight: 400;
+      font-size: 28px;
+    }
+  }
+  .tasks_lists {
+    margin-top: 25px;
+    flex-grow: 1;
+  }
+  .add_task_input {
+    border: 1px solid gray;
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 3px;
+    input {
+      width: 100%;
+    }
+    input:focus-visible {
+      outline: none;
+      border: none;
+    }
+  }
+}

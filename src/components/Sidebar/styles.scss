@@ -1,0 +1,47 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px 20px;
+  height: 100vh;
+  background-color: rgb(191, 191, 191);
+  .search_container {
+    margin-bottom: 16px;
+  }
+  .profile_details {
+    display: flex;
+    align-items: center;
+
+    .profile_image {
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      background-color: green;
+    }
+    .profile_user_details {
+      margin-left: 16px;
+      margin-bottom: 16px;
+      word-break: break-word; /* Prevents email from overflowing */
+    }
+  }
+  .list_categories_container {
+    flex-grow: 1; /* Takes available space */
+  }
+
+  .add_new_list_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto; /* Pushes this section to the bottom */
+  }
+  button {
+    cursor: pointer;
+  }
+  input {
+    background-color: white;
+    &:hover,
+    &:focus-visible {
+      outline: 0px;
+      background-color: rgb(229, 229, 229);
+    }
+  }
+}
